@@ -121,21 +121,42 @@
           </div>
         </div>
     </section>
-			
-			
-		
-		<!-- <section id="terminal">
-			<div id="terminal-header"></div>
-			<div id="terminal-res">
-				<span id="terminal-message">_> Seleccione al menos dos frecuencias para iniciar...</span>
-			</div>
-			<div id="terminal-body">
-				
-			</div>
-		</section> -->
-	<footer>
-		
-	</footer>
+    <section id="details">
+      <h1>IMD - Intermodulation</h1>
+
+      <p>
+        Intermodulation is the amplitude modulation of signals containing two or more different frequencies, caused by nonlinearities or time variance in a system. The intermodulation between frequency components will form additional components at frequencies that are not just at harmonic frequencies (integer multiples) of either, like harmonic distortion, but also at the sum and difference frequencies of the original frequencies and at sums and differences of multiples of those frequencies.
+      </p>
+
+      <h2>How to:</h2>
+      <p>
+        Simply select any frequency and you can observe the results with respective errors.
+      </p>
+
+      <h2>Issues</h2>
+      <p>
+        If you select unordered, for example: F1 and then F3, it will do the calculation with F2 = 0 and as a result you will get NaN.
+      </p>
+
+      <p>
+        Only calculates the third harmonic of the mix of two frequencies.
+      </p>
+
+      <h2>Credits</h2>
+      <p>
+        MSc. Jenry Balebona, for having assigned and guided me during this project.
+      </p>
+       
+      <p>
+        Jesús Sánchez <a href="https://github.com/Frakcool">@frakcool</a>, for helping me solve a bug.
+      </p> 
+      
+      <p>
+        StackOverFlow for references.
+      </p>
+
+      And... me.
+    </section>
 	<script src="js/app.js"></script>
 </body>
 </html>

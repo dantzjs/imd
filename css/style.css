@@ -72,3 +72,9 @@ body {
 	color: red;
 	margin-left: 1rem;
 }
+
+#details {
+	height: 100vh;
+	background: #eee;
+	padding: 2rem;
+}
